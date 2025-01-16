@@ -1,0 +1,35 @@
+### Diagram 
+User ➔ Internet ➔ DNS ➔ Web Server (Apache) ➔ Application Server (PHP)➔ **Database Server (MySQL)➔ Response Back to User
+
+How the components work
+Server:
+
+A physical or virtual machine that centralizes the processing of user requests and provides the requested resources.
+Domain name ( www .foobar .com ):
+
+Provides an easy-to-remember address to access the site instead of using the IP address directly.
+DNS record (Type A):
+
+Associates the domain www .foobar .com with the IP address 8.8.8.8 .
+Web server (Nginx):
+
+Manages incoming connections, serves static content (images, HTML files), and forwards dynamic requests to the application server.
+Application server:
+
+Processes backend logic and interacts with the database to respond to user requests.
+Database (MySQL):
+
+Stores and retrieves structured information needed by the application.
+Communication protocol:
+
+HTTP or HTTPS to ensure reliable communication between the client (browser) and the server.
+Infrastructure Weaknesses
+Single Point of Failure (SPOF):
+
+If the server goes down, the entire site becomes inaccessible.
+Maintenance Outage:
+
+Deploying a new version of the code or restarting the server results in temporary downtime.
+Scalability Issue:
+
+A single server cannot handle a high traffic load, which can lead to slowdowns or outages

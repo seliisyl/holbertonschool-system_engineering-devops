@@ -1,0 +1,14 @@
+                 HAPROXY 
+    		
+ Nginx(server Web 1)   Nginx (serveur Web 2)
+              
+            Base de donnée MySQL
+
+
+- un rectangle en haut intitulé HAProxy (Load Balancer) .
+
+- Deux flèches descendant de l'équilibreur de charge vers deu côte à côte étiquetés Nginx (serveur Web 1) et Nginx (serveur Web 2) .
+
+- Sous ces deux Nginx,  des flèches depuis chaque serveur Web vers un seul rectangle intitulé Base de données MySQL .
+
+- Des flèches directionnelles pour afficher le flux du HAProxy vers les serveurs Web et des serveurs Web vers la base de données MySQL .
