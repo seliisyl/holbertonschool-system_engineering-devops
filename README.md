@@ -1,6 +1,6 @@
 # holbertonschool-system_engineering-devops
 
-#Simple Web Infrastructure Schema
+# Simple Web Infrastructure Schema
 
 To design a simple and clear schema for hosting a website on a single server using a LAMP (Linux, Apache, MySQL, PHP) stack, follow these steps:
 
