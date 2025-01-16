@@ -1,5 +1,7 @@
 # holbertonschool-system_engineering-devops
 
+https://imgur.com/a/4bF923W
+
 # Simple Web Infrastructure Schema
 
 To design a simple and clear schema for hosting a website on a single server using a LAMP (Linux, Apache, MySQL, PHP) stack, follow these steps:
@@ -51,6 +53,8 @@ Database (MySQL)
 We use a main database (to write data) and responses (to read). This allows for better performance and ensures that data is always available in the event of a problem.
 
 # 2. Secured and monitored web infrastructure
+
+
 1. Infrastructure Components
 Load Balancer (HAProxy):
 
